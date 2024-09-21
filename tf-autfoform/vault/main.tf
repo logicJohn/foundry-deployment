@@ -5,5 +5,5 @@ provider "google" {
 
 
 module "foundry_vault" {
-    source = "././modules/foundry_vault"
+    source = "../../modules/foundry_vault"
 }
