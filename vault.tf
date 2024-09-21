@@ -5,5 +5,5 @@ provider "google" {
 
 
 module "foundry_instance" {
-    source = "./modules/foundry-vtt-instance"
+    source = "./modules/foundry-vault"
 }
