@@ -4,6 +4,6 @@ provider "google" {
 }
 
 
-module "foundry_instance" {
-    source = "../modules/foundry-vault"
+module "foundry_vault" {
+    source = "././modules/foundry_vault"
 }
